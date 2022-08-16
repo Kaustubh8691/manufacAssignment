@@ -1,7 +1,7 @@
-To start react app-
-#1)npm i yarn
-#2)npm start
-#app will run in  browser # http://localhost:3000/
+# To start react app-
+# 1)npm i yarn
+# 2)npm start
+# app will run in  browser # http://localhost:3000/
 ![image](https://user-images.githubusercontent.com/98754287/184935185-266f9a79-1f1f-44a1-b2da-f1624974f79b.png)
 ![image](https://user-images.githubusercontent.com/98754287/184936336-42897a12-3776-454c-8a36-e6887e7e8220.png)
 ![image](https://user-images.githubusercontent.com/98754287/184937460-834310f4-eae1-4af7-8864-751f1316c35e.png)
