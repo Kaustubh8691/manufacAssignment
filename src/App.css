@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.head{
+  background-color:lightblue;
+  font-weight: 700;
+}
+/* chart css */
+div#container1 {
+  display: flex;
+  padding-top: 2rem;
+      background-color: lightgrey;
+}
+.container1 {
+  display: flex;
+  padding-top: 2rem;
+      background-color: lightgrey;
+}
+.yaxis {align-self: center;transform: rotate(270deg);margin-left: 2rem;font-size: larger;}
+
+div#yaxis {align-self: center;transform: rotate(270deg);margin-left: 2rem;font-size: larger;}
+
+.data {text-align-last: center;font-size: larger;}
+.right-conainer{background-color: lightgrey;}
+
+.chart1{
+  height: '500px';
+   width: '500px'
+}
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+      .chart1{
+        height: 20px;
+    width: 100px
+      }
+      .echarts-for-react.chart1 {
+      width: 250px;
+      height: 50vh;
+  }
+
+     }
+     /* .echarts-for-react.chart1 {
+      width: 250px;
+      height: 50vh;
+  } */
