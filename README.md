@@ -1,8 +1,27 @@
+# To start react app-
+# 1)npm i yarn
+# 2)npm start
+# app will run in  browser # http://localhost:3000/
+![image](https://user-images.githubusercontent.com/98754287/185309594-5b8d0ab7-3232-4d37-a712-5dbceab82246.png)
+![image](https://user-images.githubusercontent.com/98754287/185309799-ed18bf77-a87c-4a56-904f-5dd1255c1755.png)
+![image](https://user-images.githubusercontent.com/98754287/185309840-8feb1d38-c592-472d-b00d-5daf71c68c8d.png)
+![image](https://user-images.githubusercontent.com/98754287/185310731-4f285692-9f88-4bde-8001-284868f6a8b6.png)
+
+![image](https://user-images.githubusercontent.com/98754287/185310572-ca06d617-dff8-4cae-855a-dd805288376f.png)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+
+
+
 
 In the project directory, you can run:
 
