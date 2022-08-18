@@ -41,6 +41,8 @@
 .head{
   background-color:lightblue;
   font-weight: 700;
+  padding-left: 20px;
+  padding-top: 12px;
 }
 /* chart css */
 div#container1 {

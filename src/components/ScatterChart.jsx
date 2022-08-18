@@ -1,21 +1,35 @@
 import React from "react";
-import "../App.css"
+import "../App.css";
+import datas from "./data/Wine-Data.json"
 import { ScatterChart } from "echarts/charts";
 import { CanvasRenderer } from "echarts/renderers";
 import * as echarts from "echarts/core";
 import ReactEChartsCore from "echarts-for-react/lib/core";
 import { colorIntensity, hue } from "./data";
 const Scatterchart = () => {
-  
   var data=[];
-  for(let i=0;i<=hue.length;i++){
-    data.push([colorIntensity[i],hue[i]])
+  var data1=[]
+  for (let i=0;i<datas.length;i++){
+    var s2=[]
+    for (const key in datas[i]) {
+
+      if(key==="Color intensity"){
+        // console.log(datas[i][key])
+          s2.push(datas[i][key])
+          data1.push(datas[i][key])
+      }
+      if(key==="Hue"){
+        s2.push(datas[i][key])
+      }
   }
+  data.push(s2)
+}
+  
   const options = {
     grid: { top: 8, right: 8, bottom: 24, left: 36 },
     xAxis: {
       type: "value",
-      data:  hue,
+      data:  colorIntensity,
       name: "colorIntensity",
     },
     yAxis: {

@@ -1,36 +1,53 @@
 import React from "react";
+import datas from "./data/Wine-Data.json"
 import "../App.css"
 import { BarChart } from "echarts/charts";
 import { CanvasRenderer } from "echarts/renderers";
 import * as echarts from "echarts/core";
 import ReactEChartsCore from "echarts-for-react/lib/core";
-import { alcohol, malicAcid } from "./data";
 const Barchart = () => {
- 
-  var data=[];
-  // console.log(alcohol)
-  for (let i=0;i<alcohol.length;i++){
-    data.push([alcohol[i],malicAcid[i]])
+  var data=[]
+  var data1=[]
+  var data2=[]
+  for (let i=0;i<datas.length;i++){
+    var s2=[]
+    for (const key in datas[i]) {
+
+      // console.log(`${key}: ${datas[i][key]}`);
+      if(key==="Alcohol"){
+        console.log(datas[i][key])
+          s2.push(datas[i][key])
+          data1.push(datas[i][key])
+      }
+      if(key==="Malic Acid"){
+        s2.push(datas[i][key])
+        data2.push(datas[i][key])
+      }
   }
-  console.log(data)
+  data.push(s2)
+}
+data2.sort()
+console.log(data2.sort())
+  
     const options = {
         grid: { top: 8, right: 8, bottom: 24, left: 36 },
         xAxis: {
           type: "value",
-          data: alcohol,
-          name: "colorIntensity",
+          data: data1,
+          name:"colorIntensity",
         },
         yAxis: {
           type: "value",
-          data: malicAcid,
-          title:"hue",
+          data:data2,
+         
           lable:"hue"
         },
         series: [
           {
             data: data,
             type: "bar",
-            smooth: true,
+            large: true
+            
           },
         ],
       
