@@ -2,11 +2,12 @@
 # 1)npm i yarn
 # 2)npm start
 # app will run in  browser # http://localhost:3000/
-![image](https://user-images.githubusercontent.com/98754287/184935185-266f9a79-1f1f-44a1-b2da-f1624974f79b.png)
-![image](https://user-images.githubusercontent.com/98754287/184936336-42897a12-3776-454c-8a36-e6887e7e8220.png)
-![image](https://user-images.githubusercontent.com/98754287/184937460-834310f4-eae1-4af7-8864-751f1316c35e.png)
-![image](https://user-images.githubusercontent.com/98754287/184936258-2b55f4ab-fc9a-4906-ad3c-0051001c2c8c.png)
-![image](https://user-images.githubusercontent.com/98754287/184936190-e4ed3e43-b907-4b8b-963a-32aba0038a80.png)
+![image](https://user-images.githubusercontent.com/98754287/185309594-5b8d0ab7-3232-4d37-a712-5dbceab82246.png)
+![image](https://user-images.githubusercontent.com/98754287/185309799-ed18bf77-a87c-4a56-904f-5dd1255c1755.png)
+![image](https://user-images.githubusercontent.com/98754287/185309840-8feb1d38-c592-472d-b00d-5daf71c68c8d.png)
+![image](https://user-images.githubusercontent.com/98754287/185310731-4f285692-9f88-4bde-8001-284868f6a8b6.png)
+
+![image](https://user-images.githubusercontent.com/98754287/185310572-ca06d617-dff8-4cae-855a-dd805288376f.png)
 
 
 
